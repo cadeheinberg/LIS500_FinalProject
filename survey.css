@@ -1,0 +1,15 @@
+#begin {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #1db354;
+    border: none;
+    margin-top: 2rem;
+    margin: auto;
+    display: block;
+}
+
+#begin a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

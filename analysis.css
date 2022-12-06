@@ -1,0 +1,10 @@
+#group-members-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#group-members-container img {
+    margin: 5px;
+    width: 48%;
+}

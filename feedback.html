@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIS 500 Final Project | Home</title>
+    <link rel="icon" href="images/Wisconsin_Badgers_logo.svg.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<!--header of the home page of the website-->
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="survey.html">Take Survey</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--container for home page content, used for formatt-->
+    <article id="newsletter-article">
+        <p>
+        <form action="send_feedback.php" method="post">
+            Leave us feedback on our website so far!
+            <input name="feedback" type="text" placeholder="It looks great!">
+            <input id="newsletter-article-submit" type="submit">
+        </form>
+        </p>
+    </article>
+    <!--footer of the HTML page-->
+    <footer>
+        <h3>Website Info:</h3>
+        <p>Survey Created by Aaron, Marley, Cade, and Beda</p>
+        <p>LIS 500 UW Madison</p>
+    </footer>
+
+</body>
+
+</html>

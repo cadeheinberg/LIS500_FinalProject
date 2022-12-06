@@ -1,0 +1,38 @@
+/*style the signup for newsletter form at bottom*/
+#newsletter-article {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article input {
+    margin: auto;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    width: 80%;
+    display: block;
+    font-size: 13px;
+    max-width: 80%;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article-submit {
+    background: #1db354;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article-submit:hover {
+    background-color: #1db354d8;
+}
