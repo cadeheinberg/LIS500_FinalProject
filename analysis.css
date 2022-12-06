@@ -4,7 +4,16 @@
     padding: 5px;
 }
 
-#group-members-container img {
-    margin: 5px;
+#group-members-container a {
+    display: inline-block;
     width: 48%;
+    margin: 5px;
+}
+
+#group-members-container img {
+    width: 100%;
+}
+
+#group-members-container img:hover {
+    opacity: 0.3;
 }
