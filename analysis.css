@@ -8,12 +8,25 @@
     display: inline-block;
     width: 48%;
     margin: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    background-color: rgb(233, 233, 233);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #3776dd;
+    font-weight: 600;
 }
 
 #group-members-container img {
     width: 100%;
 }
 
-#group-members-container img:hover {
+#group-members-container a:hover {
     opacity: 0.3;
+}
+
+#group-members-container a:visited {
+    color: #3776dd;
+    font-weight: 600;
 }

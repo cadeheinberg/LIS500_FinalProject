@@ -47,7 +47,7 @@ nav ul li {
 }
 
 /*style when hovering the navigation of all the pages*/
-ul li:hover {
+nav ul li:hover {
     background-color: #4d91fea7;
     padding: 0.75rem 1rem 0.75rem 1rem;
 }
